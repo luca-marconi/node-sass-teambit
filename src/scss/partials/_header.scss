@@ -21,17 +21,16 @@ nav {
             justify-content: flex-end;
             width: 50%;
             height: 100%;
-        }
-        ul {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            list-style: none;
-        }
-        li {
-            padding: 0 15px;
-            font-weight: 600;
+            ul {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                list-style: none;
+                li {
+                    padding: 0 15px;
+                    font-weight: 600;
+                }
+            }
         }
     }
-
 }
