@@ -3,13 +3,17 @@
     border-radius: 5px;
     font-size: 15px;
     display: flex;
-    border: 1px solid blue;
+    border: 1px solid #30488f;
     color: #30488f;
     img {
         height: 25px !important;
         padding-right: 10px;
     } &:hover {
-        background-color: #30488f;
+        background-color: $button_bg;
         color: white;
     }
+}
+.btn-banner {
+    background-color: $button_bg;
+    color: white;
 }

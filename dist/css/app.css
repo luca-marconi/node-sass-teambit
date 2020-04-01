@@ -10,8 +10,6 @@
   color: #58402c;
 }
 
-/* FOOTER */
-
 /* HEADER */
 
 nav {
@@ -25,16 +23,16 @@ nav .navbar {
   width: calc(100% - 20%);
   display: flex;
   border-bottom: 1px solid grey;
-  font-size: 15px;
-}
-
-nav .navbar img {
-  height: 85px;
+  font-size: 17px;
 }
 
 nav .navbar .left-nav {
   width: 50%;
   height: 100%;
+}
+
+nav .navbar .left-nav img {
+  height: 85px;
 }
 
 nav .navbar .right-nav {
@@ -56,7 +54,62 @@ nav .navbar .right-nav ul li {
   font-weight: 600;
 }
 
+.container-banner {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container-banner .banner {
+  height: 100%;
+  width: calc(100% - 20%);
+  display: flex;
+  padding: 80px 0;
+}
+
+.container-banner .left-banner {
+  width: 50%;
+  height: 100%;
+}
+
+.container-banner .left-banner h1 {
+  font-size: 50px;
+}
+
+.container-banner .left-banner p {
+  font-size: 25px;
+}
+
+.container-banner .left-banner small {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.container-banner .left-banner small i {
+  padding: 0 5px;
+}
+
+.container-banner .left-banner .sign-up {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container-banner .left-banner .sign-up .btn {
+  margin: 0 10px;
+}
+
+.container-banner .right-banner {
+  width: 50%;
+  height: 100%;
+}
+
 /* MAIN */
+
+/* FOOTER */
 
 /* COMMONS */
 
@@ -65,7 +118,7 @@ nav .navbar .right-nav ul li {
   border-radius: 5px;
   font-size: 15px;
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid #30488f;
   color: #30488f;
 }
 
@@ -75,6 +128,11 @@ nav .navbar .right-nav ul li {
 }
 
 .btn:hover {
+  background-color: #30488f;
+  color: white;
+}
+
+.btn-banner {
   background-color: #30488f;
   color: white;
 }
