@@ -1,0 +1,16 @@
+.btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+
+    border: 1px solid blue;
+    color: #30488f;
+    img {
+        height: 25px !important;
+        padding-right: 10px;
+    } &:hover {
+        background-color: #30488f;
+        color: white;
+    }
+}

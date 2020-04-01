@@ -1,4 +1,81 @@
-body {
-  background-color: grey;
+/* VARIABLES */
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #58402c;
+}
+
+/* FOOTER */
+
+/* HEADER */
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav .navbar {
+  height: 86px;
+  width: calc(100% - 20%);
+  display: flex;
+  border-bottom: 1px solid grey;
+  font-size: 15px;
+}
+
+nav .navbar img {
+  height: 85px;
+}
+
+nav .navbar .left-nav {
+  width: 50%;
+  height: 100%;
+}
+
+nav .navbar .right-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+}
+
+nav .navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+
+nav .navbar li {
+  padding: 0 15px;
+  font-weight: 600;
+}
+
+/* MAIN */
+
+/* COMMONS */
+
+.btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  display: flex;
+  border: 1px solid blue;
+  color: #30488f;
+}
+
+.btn img {
+  height: 25px !important;
+  padding-right: 10px;
+}
+
+.btn:hover {
+  background-color: #30488f;
+  color: white;
 }
 

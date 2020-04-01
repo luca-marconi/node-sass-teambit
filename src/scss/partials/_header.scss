@@ -1,0 +1,37 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    .navbar {
+        height: 86px;
+        width: calc(100% - 20%);
+        display: flex;
+        border-bottom: 1px solid grey;
+        font-size: 15px;
+        img {
+            height: 85px;
+        }
+        .left-nav {
+            width: 50%;
+            height: 100%;
+        }
+        .right-nav {
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+            height: 100%;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+        }
+        li {
+            padding: 0 15px;
+            font-weight: 600;
+        }
+    }
+
+}
