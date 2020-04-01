@@ -128,12 +128,16 @@ nav .navbar .right-nav ul li {
 }
 
 .btn:hover {
-  background-color: #30488f;
+  background-color: #233569;
   color: white;
 }
 
 .btn-banner {
   background-color: #30488f;
   color: white;
+}
+
+.btn-banner:hover {
+  background-color: #233569;
 }
 

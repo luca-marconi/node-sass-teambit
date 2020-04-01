@@ -9,11 +9,14 @@
         height: 25px !important;
         padding-right: 10px;
     } &:hover {
-        background-color: $button_bg;
+        background-color: $button_bg_hover;
         color: white;
     }
 }
 .btn-banner {
     background-color: $button_bg;
     color: white;
+    &:hover {
+    background-color: $button_bg_hover;
+    }
 }
