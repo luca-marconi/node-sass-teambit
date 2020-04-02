@@ -20,9 +20,11 @@ nav {
 
 nav .navbar {
   height: 86px;
-  width: calc(100% - 20%);
+  width: calc(100%);
   display: flex;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
+  background-color: #ffffff;
+  padding: 0 140px;
   font-size: 17px;
 }
 
@@ -52,62 +54,132 @@ nav .navbar .right-nav ul {
 nav .navbar .right-nav ul li {
   padding: 0 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 
-.container-banner {
+.container-jumbotron {
   height: 500px;
   width: 100vw;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
-.container-banner .banner {
+.container-jumbotron .jumbotron {
   height: 100%;
   width: calc(100% - 20%);
   display: flex;
   padding: 80px 0;
 }
 
-.container-banner .left-banner {
+.container-jumbotron .jumbotron .left-jumbotron {
   width: 50%;
   height: 100%;
 }
 
-.container-banner .left-banner h1 {
+.container-jumbotron .jumbotron .left-jumbotron h1 {
   font-size: 50px;
 }
 
-.container-banner .left-banner p {
+.container-jumbotron .jumbotron .left-jumbotron p {
   font-size: 25px;
 }
 
-.container-banner .left-banner small {
+.container-jumbotron .jumbotron .left-jumbotron a {
+  text-decoration: none;
+}
+
+.container-jumbotron .jumbotron .left-jumbotron small {
   font-size: 16px;
   display: flex;
   align-items: center;
 }
 
-.container-banner .left-banner small i {
+.container-jumbotron .jumbotron .left-jumbotron small i {
   padding: 0 5px;
 }
 
-.container-banner .left-banner .sign-up {
+.container-jumbotron .jumbotron .left-jumbotron .sign-up {
   padding: 25px 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.container-banner .left-banner .sign-up .btn {
+.container-jumbotron .jumbotron .left-jumbotron .sign-up .btn {
   margin: 0 10px;
 }
 
-.container-banner .right-banner {
+.container-jumbotron .jumbotron .right-jumbotron {
   width: 50%;
   height: 100%;
 }
 
+.container-jumbotron .jumbotron .right-jumbotron img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 /* MAIN */
+
+main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe7d2;
+}
+
+main .container {
+  width: calc(100% - 20%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+main .container p {
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+  height: 120px;
+}
+
+main .container .container-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+main .container .container-card .card {
+  flex-basis: 30%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 50px;
+}
+
+main .container .container-card .card img {
+  height: 160px;
+  padding: 25px;
+}
+
+main .container .container-card .card p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main .container img {
+  height: 300px;
+  padding: 40px 0;
+}
 
 /* FOOTER */
 
@@ -120,6 +192,7 @@ nav .navbar .right-nav ul li {
   display: flex;
   border: 1px solid #30488f;
   color: #30488f;
+  cursor: pointer;
 }
 
 .btn img {
@@ -132,12 +205,18 @@ nav .navbar .right-nav ul li {
   color: white;
 }
 
-.btn-banner {
+.btn-jumbotron {
   background-color: #30488f;
   color: white;
 }
 
-.btn-banner:hover {
+.btn-jumbotron:hover {
   background-color: #233569;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 

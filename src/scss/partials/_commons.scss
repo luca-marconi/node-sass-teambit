@@ -5,6 +5,7 @@
     display: flex;
     border: 1px solid #30488f;
     color: #30488f;
+    cursor: pointer;
     img {
         height: 25px !important;
         padding-right: 10px;
@@ -13,10 +14,15 @@
         color: white;
     }
 }
-.btn-banner {
+.btn-jumbotron {
     background-color: $button_bg;
     color: white;
     &:hover {
     background-color: $button_bg_hover;
     }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
