@@ -305,6 +305,120 @@ section .container-second-section .left-section small i {
   color: #30488f;
 }
 
+section .container-third-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+section .container-third-section .left-section {
+  width: 50%;
+  height: 100%;
+}
+
+section .container-third-section .left-section img {
+  width: 100%;
+}
+
+section .container-third-section .right-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+section .container-third-section .right-section h3 {
+  width: 50%;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+section .container-third-section .right-section img {
+  height: 220px;
+}
+
+section .container-third-section .right-section p {
+  width: 50%;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+section .container-third-section .right-section a {
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+section .container-third-section .right-section small {
+  font-size: 25px;
+  color: #30488f;
+  display: flex;
+  align-items: center;
+}
+
+section .container-third-section .right-section small i {
+  padding: 0 5px;
+  color: #30488f;
+}
+
+section .container-fourth-section {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+section .container-fourth-section .right-section {
+  width: 50%;
+  height: 100%;
+}
+
+section .container-fourth-section .right-section img {
+  width: 100%;
+}
+
+section .container-fourth-section .left-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 280px;
+}
+
+section .container-fourth-section .left-section h3 {
+  width: 80%;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+section .container-fourth-section .left-section img {
+  height: 220px;
+}
+
+section .container-fourth-section .left-section p {
+  width: 80%;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+section .container-fourth-section .left-section a {
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+section .container-fourth-section .left-section small {
+  font-size: 25px;
+  color: #30488f;
+  display: flex;
+  align-items: center;
+}
+
+section .container-fourth-section .left-section small i {
+  padding: 0 5px;
+  color: #30488f;
+}
+
 /* FOOTER */
 
 /* COMMONS */

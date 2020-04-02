@@ -151,4 +151,98 @@ section {
             }
         }
     }
+    .container-third-section {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        .left-section {
+            width: 50%;
+            height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .right-section {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 50px;
+            h3 {
+                width: 50%;
+                font-size: 30px;
+                padding: 10px 0;
+            }
+            img {
+                height: 220px;
+            }
+            p {
+                width: 50%;
+                font-size: 20px;
+                padding: 10px 0;
+            }
+            a {
+                text-decoration: none;
+                padding: 10px 0;
+            }
+            small {
+                font-size: 25px;
+                color: $button_bg;
+                display: flex;
+                align-items: center;
+                i {
+                    padding: 0 5px;
+                    color: $button_bg;
+                }
+            }
+        }
+    }
+    .container-fourth-section {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        .right-section {
+            width: 50%;
+            height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .left-section {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 280px;
+            h3 {
+                width: 80%;
+                font-size: 30px;
+                padding: 10px 0;
+            }
+            img {
+                height: 220px;
+            }
+            p {
+                width: 80%;
+                font-size: 20px;
+                padding: 10px 0;
+            }
+            a {
+                text-decoration: none;
+                padding: 10px 0;
+            }
+            small {
+                font-size: 25px;
+                color: $button_bg;
+                display: flex;
+                align-items: center;
+                i {
+                    padding: 0 5px;
+                    color: $button_bg;
+                }
+            }
+        }
+    }
 }
